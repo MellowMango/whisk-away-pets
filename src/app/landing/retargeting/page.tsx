@@ -129,7 +129,7 @@ export default function RetargetingLanding() {
 
           <div className="text-center text-xs text-neutral-500">
             💯 30-day money-back guarantee<br/>
-            🚀 Instant download after purchase<br/>
+            🚀 Available after purchase<br/>
             ⏰ Offer expires in 24 hours
           </div>
         </div>

@@ -83,7 +83,7 @@ export default function CheckoutPage() {
             <div className="text-sm text-neutral-600">
               {tier === "concierge"
                 ? "Checklist + email access to your case manager."
-                : "Country-pair checklist. Instant delivery."}
+                : "Country-pair checklist with email delivery."}
             </div>
           </div>
           <div className="text-2xl font-extrabold">{priceText}</div>

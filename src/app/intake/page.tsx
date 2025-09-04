@@ -9,7 +9,7 @@ export default function IntakePage() {
           Tell us about your pets and travel plans to get personalized guidance
         </p>
         <p className="text-sm text-neutral-500">
-          ✓ Secure form ✓ No payment required ✓ Instant pricing
+          ✓ Secure form ✓ No payment required ✓ Personalized pricing
         </p>
       </div>
       <EnhancedIntakeForm />

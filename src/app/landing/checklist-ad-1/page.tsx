@@ -71,7 +71,7 @@ export default function ChecklistAd1() {
           <div className="space-y-4 text-sm text-neutral-700 mb-6">
             <div className="flex items-center gap-2">
               <span className="text-green-600">✓</span>
-              <span>Instant download after payment</span>
+              <span>Available after payment</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-green-600">✓</span>
@@ -92,7 +92,7 @@ export default function ChecklistAd1() {
           </a>
           
           <p className="text-xs text-center text-neutral-500 mt-4">
-            Secure checkout • Instant access • No subscription
+            Secure checkout • Immediate access • No subscription
           </p>
         </div>
       </section>

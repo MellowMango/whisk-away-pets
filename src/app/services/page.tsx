@@ -51,7 +51,7 @@ export default function Services() {
             <a href="/intake" className="block w-full px-6 py-3 bg-black text-white rounded-md hover:opacity-90 font-medium">
               Get Your Checklist
             </a>
-            <p className="text-xs text-neutral-500 mt-2">Instant download after purchase</p>
+            <p className="text-xs text-neutral-500 mt-2">Available after purchase</p>
           </div>
         </div>
 

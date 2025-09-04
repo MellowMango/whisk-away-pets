@@ -10,17 +10,15 @@ export default function Home() {
               <span className="text-orange-500"> Starts Here</span> 🐾
             </h1>
             <p className="text-xl text-neutral-700 leading-relaxed">
-              Moving internationally with your furry family? We make it simple with 
-              country-specific guides, step-by-step checklists, and loving support 
-              every step of the way.
+              Moving internationally with your fur family? We make it simple with country-specific guides, step-by-step checklists, and loving support every step of the way.
             </p>
           </div>
           
           <div className="flex gap-4">
-            <a href="/intake" className="px-8 py-4 rounded-xl bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 transition-all shadow-lg font-semibold text-lg">
+            <a href="/product/checklist" className="px-8 py-4 rounded-xl bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 transition-all shadow-lg font-semibold text-lg">
               Get My Pawsport ✈️
             </a>
-            <a href="/landing/email-signup" className="px-8 py-4 rounded-xl border-2 border-orange-500 text-orange-600 hover:bg-orange-50 transition-colors font-semibold text-lg">
+            <a href="/resources" className="px-8 py-4 rounded-xl border-2 border-orange-500 text-orange-600 hover:bg-orange-50 transition-colors font-semibold text-lg">
               Free Guide First 📋
             </a>
           </div>
@@ -42,7 +40,7 @@ export default function Home() {
               </div>
               <div className="flex items-center gap-3">
                 <span className="text-orange-600">🤗</span>
-                <span className="text-sm">Personal support when you need it most</span>
+                <span className="text-sm">Personal Support option for when you need it most</span>
               </div>
             </div>
           </div>
@@ -50,14 +48,13 @@ export default function Home() {
 
         <section className="flex justify-center">
           <div className="relative">
-            <img 
-              src="/images/Frontview-stuffedanimals.png" 
-              alt="Happy pets ready to travel" 
-              className="w-80 h-auto drop-shadow-2xl"
-            />
-            <div className="absolute -top-6 -right-6 bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-bold rotate-12 shadow-lg">
-              2,500+ Pets Moved! 🎉
-            </div>
+            <a href="/resources">
+              <img 
+                src="/images/LeadMag-Top10ProblemstoAvoidTravelingwpets.png" 
+                alt="Top 10 Problems to Avoid When Traveling with Pets" 
+                className="w-80 h-auto drop-shadow-2xl cursor-pointer hover:scale-105 transition-transform"
+              />
+            </a>
           </div>
         </section>
       </div>
@@ -87,8 +84,7 @@ export default function Home() {
             </div>
             <h3 className="text-xl font-semibold">Get Your Pawsport</h3>
             <p className="text-neutral-600">
-              Receive your personalized International Pawsport with everything 
-              you need - instantly!
+              Select your personalized International Pawsport option to include everything you need!
             </p>
           </div>
           
@@ -108,9 +104,8 @@ export default function Home() {
       {/* Social Proof */}
       <section className="bg-gradient-to-r from-yellow-100 to-orange-100 rounded-3xl p-12">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold mb-4">Thousands of Happy Reunions 💕</h2>
+          <h2 className="text-3xl font-bold mb-4">Check out some of our Happy Customer Tails 💕</h2>
           <div className="flex items-center justify-center gap-8 text-lg">
-            <div><strong>2,500+</strong> Pets Moved</div>
             <div><strong>50+</strong> Countries</div>
             <div><strong>4.9⭐</strong> Average Rating</div>
           </div>
@@ -150,10 +145,10 @@ export default function Home() {
           Join thousands of pet families who've made the move with confidence
         </p>
         <div className="flex gap-4 justify-center">
-          <a href="/intake" className="px-8 py-4 bg-white text-orange-500 rounded-xl hover:bg-orange-50 transition-colors font-semibold text-lg shadow-lg">
+          <a href="/product/checklist" className="px-8 py-4 bg-white text-orange-500 rounded-xl hover:bg-orange-50 transition-colors font-semibold text-lg shadow-lg">
             Start My Pet's Journey ✈️
           </a>
-          <a href="/landing/email-signup" className="px-8 py-4 border-2 border-white text-white rounded-xl hover:bg-orange-400 transition-colors font-semibold text-lg">
+          <a href="/resources" className="px-8 py-4 border-2 border-white text-white rounded-xl hover:bg-orange-400 transition-colors font-semibold text-lg">
             Get Free Tips First 📧
           </a>
         </div>

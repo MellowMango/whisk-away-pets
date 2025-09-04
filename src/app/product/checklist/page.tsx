@@ -13,208 +13,134 @@ export default function ChecklistProduct() {
           Your Pet's <span className="text-orange-500">International Pawsport</span> 🐾
         </h1>
         <p className="text-xl text-neutral-700 max-w-3xl mx-auto">
-          The complete step-by-step guide for moving your furry family member internationally. 
+          Choose the perfect support level for moving your fur family member internationally. 
           Country-specific requirements that eliminate confusion and costly mistakes.
         </p>
-        <div className="flex items-center justify-center gap-4">
-          <div className="text-4xl font-bold text-orange-600">$50</div>
-          <div className="bg-gradient-to-r from-orange-100 to-yellow-100 text-orange-800 px-4 py-2 rounded-full text-sm font-bold shadow-sm">
-            ✨ Instant Download
+      </section>
+
+      <div className="grid gap-8 md:grid-cols-3">
+        {/* Product 1 - Essential Checklist */}
+        <div className="bg-white rounded-xl border-2 border-orange-200 p-8">
+          <div className="text-center mb-6">
+            <h2 className="text-2xl font-bold text-orange-600">Essential Checklist</h2>
+            <div className="text-4xl font-bold text-orange-600 my-4">$59</div>
+            <p className="text-gray-600 text-sm">Perfect for organized pet parents</p>
+          </div>
+          
+          <ul className="space-y-3 text-sm mb-8">
+            <li className="flex items-center gap-2">✅ Country-specific requirements</li>
+            <li className="flex items-center gap-2">✅ Complete vaccination schedule</li>
+            <li className="flex items-center gap-2">✅ Documentation checklist</li>
+            <li className="flex items-center gap-2">✅ Step-by-step timeline</li>
+            <li className="flex items-center gap-2">✅ Cost breakdown</li>
+          </ul>
+          
+          <a href="/intake?tier=checklist" className="block w-full px-6 py-3 bg-orange-500 text-white rounded-xl hover:bg-orange-600 font-semibold text-center transition-all">
+            Get Essential Checklist
+          </a>
+        </div>
+
+        {/* Product 2 - Premium Support */}
+        <div className="bg-white rounded-xl border-2 border-blue-200 p-8 relative">
+          <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white px-4 py-2 rounded-full text-sm font-bold">
+            Most Popular
+          </div>
+          <div className="text-center mb-6">
+            <h2 className="text-2xl font-bold text-blue-600">Premium Support</h2>
+            <div className="text-4xl font-bold text-blue-600 my-4">$249</div>
+            <p className="text-gray-600 text-sm">Enhanced guidance & resources</p>
+          </div>
+          
+          <ul className="space-y-3 text-sm mb-8">
+            <li className="flex items-center gap-2">✅ Everything in Essential Checklist</li>
+            <li className="flex items-center gap-2">✅ Direct links to required forms</li>
+            <li className="flex items-center gap-2">✅ Vet & government contacts</li>
+            <li className="flex items-center gap-2">✅ Detailed timeline with reminders</li>
+            <li className="flex items-center gap-2">✅ Top pet-friendly airline recommendations</li>
+            <li className="flex items-center gap-2">✅ Airline-specific requirements</li>
+          </ul>
+          
+          <a href="/intake?tier=premium" className="block w-full px-6 py-3 bg-blue-500 text-white rounded-xl hover:bg-blue-600 font-semibold text-center transition-all">
+            Get Premium Support
+          </a>
+        </div>
+
+        {/* Product 3 - Personal Coach */}
+        <div className="bg-white rounded-xl border-2 border-purple-200 p-8">
+          <div className="text-center mb-6">
+            <h2 className="text-2xl font-bold text-purple-600">Personal Coach</h2>
+            <div className="text-4xl font-bold text-purple-600 my-4">$1199</div>
+            <p className="text-gray-600 text-sm">White-glove concierge service</p>
+          </div>
+          
+          <ul className="space-y-3 text-sm mb-8">
+            <li className="flex items-center gap-2">✅ Everything in Premium Support</li>
+            <li className="flex items-center gap-2">✅ Personal Pet Travel Coach</li>
+            <li className="flex items-center gap-2">✅ WhatsApp direct access</li>
+            <li className="flex items-center gap-2">✅ Document review & feedback</li>
+            <li className="flex items-center gap-2">✅ 1-on-1 consultations</li>
+            <li className="flex items-center gap-2">✅ Emergency support</li>
+          </ul>
+          
+          <a href="/intake?tier=coach" className="block w-full px-6 py-3 bg-purple-500 text-white rounded-xl hover:bg-purple-600 font-semibold text-center transition-all">
+            Get Personal Coach
+          </a>
+        </div>
+      </div>
+
+      <section className="bg-gradient-to-r from-orange-50 to-yellow-50 rounded-xl p-8">
+        <h2 className="text-2xl font-bold text-center mb-6">Which Option is Right for You?</h2>
+        
+        <div className="grid gap-6 md:grid-cols-3 text-center text-sm">
+          <div>
+            <h3 className="font-bold text-orange-600 mb-2">Essential Checklist</h3>
+            <p className="text-gray-600">Perfect for organized pet parents who like detailed planning and prefer to handle things themselves. Great for standard relocations with healthy pets to common destinations.</p>
+          </div>
+          
+          <div>
+            <h3 className="font-bold text-blue-600 mb-2">Premium Support</h3>
+            <p className="text-gray-600">Ideal when you want extra guidance with direct links, contacts, and airline-specific requirements. Best for complex routes or when you want enhanced resources.</p>
+          </div>
+          
+          <div>
+            <h3 className="font-bold text-purple-600 mb-2">Personal Coach</h3>
+            <p className="text-gray-600">Perfect for high-stakes moves, complex situations, or when you want white-glove concierge service with direct access to a pet travel expert.</p>
           </div>
         </div>
       </section>
 
-      <div className="grid gap-8 lg:grid-cols-2">
-        <div className="space-y-6">
-          <div className="bg-white rounded-xl border p-8">
-            <h2 className="text-2xl font-bold mb-6">What's Included</h2>
-            <div className="space-y-4">
-              <div className="flex items-start gap-4">
-                <div className="bg-blue-100 rounded-full p-2 mt-1">
-                  <svg className="w-4 h-4 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="font-semibold mb-2">Country-Specific Requirements</h3>
-                  <p className="text-sm text-neutral-700">
-                    Exact requirements for your origin-destination pair. No generic information - 
-                    just what YOU need for YOUR route.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="bg-green-100 rounded-full p-2 mt-1">
-                  <svg className="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="font-semibold mb-2">Complete Timeline</h3>
-                  <p className="text-sm text-neutral-700">
-                    Month-by-month breakdown showing when to complete each step. 
-                    Start 3-6 months before your move date.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="bg-purple-100 rounded-full p-2 mt-1">
-                  <svg className="w-4 h-4 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="font-semibold mb-2">Vaccination Schedule</h3>
-                  <p className="text-sm text-neutral-700">
-                    Detailed vaccination requirements including rabies titers, 
-                    DHPP, and any country-specific immunizations.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="bg-yellow-100 rounded-full p-2 mt-1">
-                  <svg className="w-4 h-4 text-yellow-600" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="font-semibold mb-2">Documentation Checklist</h3>
-                  <p className="text-sm text-neutral-700">
-                    All required forms, health certificates, permits, and 
-                    endorsement procedures explained clearly.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="bg-red-100 rounded-full p-2 mt-1">
-                  <svg className="w-4 h-4 text-red-600" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="font-semibold mb-2">Travel & Logistics</h3>
-                  <p className="text-sm text-neutral-700">
-                    Pet-friendly airlines, crate specifications, booking tips, 
-                    and what to expect at airports.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="bg-indigo-100 rounded-full p-2 mt-1">
-                  <svg className="w-4 h-4 text-indigo-600" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="font-semibold mb-2">Cost Planning</h3>
-                  <p className="text-sm text-neutral-700">
-                    Detailed breakdown of all expenses so you can budget 
-                    accurately for your pet's move.
-                  </p>
-                </div>
-              </div>
-            </div>
+      <section className="bg-white rounded-xl border p-8">
+        <h2 className="text-2xl font-bold text-center mb-6">Customer Success Stories</h2>
+        <div className="grid gap-6 md:grid-cols-2">
+          <div className="bg-neutral-50 p-6 rounded-lg">
+            <p className="text-neutral-700 italic mb-3">
+              "The checklist was incredibly detailed and saved me weeks of research. 
+              Everything was exactly as described - no surprises!"
+            </p>
+            <p className="font-medium">- Sarah M., moved dog to Australia</p>
+          </div>
+          
+          <div className="bg-neutral-50 p-6 rounded-lg">
+            <p className="text-neutral-700 italic mb-3">
+              "Worth every penny. The timeline helped me stay organized and 
+              my cat's move went smoothly."
+            </p>
+            <p className="font-medium">- James R., moved cat to Germany</p>
           </div>
         </div>
+      </section>
 
-        <div className="space-y-6">
-          <div className="bg-gradient-to-b from-green-50 to-white rounded-xl border p-8">
-            <div className="text-center mb-6">
-              <h3 className="text-2xl font-bold mb-4">Perfect For</h3>
-            </div>
-            
-            <div className="space-y-4">
-              <div className="flex items-start gap-3">
-                <span className="text-green-600 mt-1">👨‍👩‍👧‍👦</span>
-                <div>
-                  <h4 className="font-semibold">Organized Families</h4>
-                  <p className="text-sm text-neutral-700">You like detailed planning and prefer to handle things yourself</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start gap-3">
-                <span className="text-green-600 mt-1">🏠</span>
-                <div>
-                  <h4 className="font-semibold">Standard Relocations</h4>
-                  <p className="text-sm text-neutral-700">Healthy dogs/cats moving to common destinations</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start gap-3">
-                <span className="text-green-600 mt-1">⏰</span>
-                <div>
-                  <h4 className="font-semibold">Plenty of Time</h4>
-                  <p className="text-sm text-neutral-700">You have 3+ months before your move date</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start gap-3">
-                <span className="text-green-600 mt-1">💰</span>
-                <div>
-                  <h4 className="font-semibold">Budget-Conscious</h4>
-                  <p className="text-sm text-neutral-700">Want to save money vs. full-service relocators</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-white rounded-xl border p-6">
-            <h3 className="font-bold mb-4 text-center">Customer Success</h3>
-            <div className="space-y-4 text-sm">
-              <div className="bg-neutral-50 p-4 rounded-lg">
-                <p className="text-neutral-700 italic mb-2">
-                  "The checklist was incredibly detailed and saved me weeks of research. 
-                  Everything was exactly as described - no surprises!"
-                </p>
-                <p className="font-medium">- Sarah M., moved dog to Australia</p>
-              </div>
-              
-              <div className="bg-neutral-50 p-4 rounded-lg">
-                <p className="text-neutral-700 italic mb-2">
-                  "Worth every penny. The timeline helped me stay organized and 
-                  my cat's move went smoothly."
-                </p>
-                <p className="font-medium">- James R., moved cat to Germany</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-blue-50 rounded-xl border border-blue-200 p-6 text-center">
-            <h3 className="font-bold text-blue-800 mb-4">Ready to Get Started?</h3>
-            <div className="mb-6">
-              <div className="text-3xl font-bold mb-2">$50</div>
-              <p className="text-sm text-neutral-600">One-time purchase • Instant download</p>
-            </div>
-            
-            <a href="/intake" className="block w-full px-6 py-4 bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-xl hover:from-orange-600 hover:to-orange-700 font-semibold text-lg mb-4 shadow-lg transform hover:scale-105 transition-all">
-              Get My Pawsport Now! ✈️
-            </a>
-            
-            <div className="space-y-2 text-xs text-neutral-500">
-              <p>✅ 30-day money-back guarantee</p>
-              <p>🚀 Available immediately after purchase</p>
-              <p>📧 Email support included</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <section className="bg-yellow-50 border border-yellow-200 rounded-xl p-8">
-        <h2 className="text-2xl font-bold text-center mb-6">Need More Support?</h2>
-        <p className="text-center text-neutral-700 mb-6">
-          If your situation is complex or you'd prefer guided support, consider our Concierge service.
+      <section className="bg-blue-50 border border-blue-200 rounded-xl p-8 text-center">
+        <h2 className="text-2xl font-bold mb-4">Questions About Which Option to Choose?</h2>
+        <p className="text-neutral-700 mb-6">
+          Not sure which level of support is right for your pet's move? We're here to help you decide.
         </p>
         <div className="flex gap-4 justify-center">
-          <a href="/services/white-glove" className="px-6 py-3 bg-yellow-600 text-white rounded-md hover:bg-yellow-700">
-            Learn About Concierge
+          <a href="/contact" className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+            Get Personalized Advice
           </a>
-          <a href="/contact" className="px-6 py-3 border border-yellow-600 text-yellow-600 rounded-md hover:bg-yellow-50">
-            Ask Questions
+          <a href="/resources" className="px-6 py-3 border border-blue-600 text-blue-600 rounded-md hover:bg-blue-50">
+            Browse Free Resources
           </a>
         </div>
       </section>

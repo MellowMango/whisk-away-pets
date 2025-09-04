@@ -80,7 +80,7 @@ export default function ChecklistAd2() {
 
           <div className="space-y-3 text-sm mb-6">
             <div className="bg-white rounded-lg p-3 border">
-              <div className="font-semibold">🎯 Instant Access</div>
+              <div className="font-semibold">🎯 Immediate Access</div>
               <div className="text-neutral-600">Download immediately after purchase</div>
             </div>
             <div className="bg-white rounded-lg p-3 border">

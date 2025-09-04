@@ -1,7 +1,7 @@
 const featuresChecklist = [
   "Country-pair checklist (origin → destination)",
   "Vaccines, microchip, quarantine, airline rules",
-  "Instant delivery via email/portal",
+  "Email delivery via secure portal",
 ];
 
 const featuresConcierge = [

@@ -165,7 +165,7 @@ export default function OfferShowcase() {
           </div>
           <h3 className="font-semibold mb-2">Fast Results</h3>
           <p className="text-sm text-neutral-700">
-            Instant access to checklists, consultation calls scheduled within 48 hours
+            Quick access to checklists, consultation calls scheduled within 48 hours
           </p>
         </div>
         
