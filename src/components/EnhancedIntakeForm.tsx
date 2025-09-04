@@ -9,6 +9,7 @@ import Select from "react-select";
 import PhoneInput from "react-phone-number-input";
 import ReactCountryFlag from "react-country-flag";
 import countries from "world-countries";
+import { sendBothEmails, type IntakeFormData } from "@/lib/emailjs";
 import "react-phone-number-input/style.css";
 
 const petSchema = z.object({
@@ -51,10 +52,10 @@ const schema = z.object({
   // Pets
   pets: z.array(petSchema).min(1, "At least one pet is required"),
   
-  // Additional Information
+  // Additional Information  
   additionalServices: z.array(z.string()).optional(),
   budgetRange: z.enum(["under-500", "500-1000", "1000-2000", "2000-5000", "over-5000"]).optional(),
-  notes: z.string().max(1000).optional(),
+  additionalInfo: z.string().max(1000).optional(),
 });
 
 type FormData = z.infer<typeof schema>;
@@ -139,6 +140,19 @@ export default function EnhancedIntakeForm() {
       if (response.ok) {
         // Store in localStorage for checkout
         localStorage.setItem("whiskaway:intake", JSON.stringify(data));
+        
+        // Send confirmation emails (customer + owner)
+        const emailResult = await sendBothEmails(data as IntakeFormData);
+        
+        if (!emailResult.customer.success) {
+          console.error("Failed to send customer confirmation:", emailResult.customer.error);
+        }
+        
+        if (!emailResult.owner.success) {
+          console.error("Failed to send owner notification:", emailResult.owner.error);
+        }
+        
+        // Show success even if emails fail (emails are secondary)
         setShowSuccess(true);
         
         // Auto-redirect to pricing after showing success
@@ -469,7 +483,7 @@ export default function EnhancedIntakeForm() {
           <label className="block text-sm font-medium">Additional Notes</label>
           <textarea className="mt-1 w-full border rounded-md p-2" rows={4}
                     placeholder="Any special circumstances, concerns, or questions..."
-                    {...register("notes")} />
+                    {...register("additionalInfo")} />
         </div>
       </section>
 
