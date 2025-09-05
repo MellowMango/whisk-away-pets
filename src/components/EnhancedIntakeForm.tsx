@@ -97,7 +97,7 @@ export default function EnhancedIntakeForm() {
   const [showSuccess, setShowSuccess] = useState(false);
   
   const { register, handleSubmit, control, formState: { errors }, watch, setValue } = useForm<FormData>({
-    resolver: zodResolver(schema),
+    resolver: zodResolver(schema) as any,
     defaultValues: {
       pets: [{
         name: "",

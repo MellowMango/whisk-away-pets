@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -47,7 +48,7 @@ fbq('track', 'PageView');`
         }} />
         <noscript><img height="1" width="1" style={{display:'none'}}
 src="https://www.facebook.com/tr?id=1156076456374747&ev=PageView&noscript=1"
-/></noscript>
+alt=""/></noscript>
         {/* End Meta Pixel Code */}
       </head>
       <body className="min-h-screen bg-orange-50 text-neutral-900" suppressHydrationWarning={true}>
@@ -57,9 +58,9 @@ height="0" width="0" style={{display:'none',visibility:'hidden'}}></iframe></nos
         {/* End Google Tag Manager (noscript) */}
         <header className="border-b bg-white shadow-sm">
           <div className="mx-auto max-w-5xl px-4 py-4 flex items-center justify-between">
-            <a href="/" className="flex items-center gap-3">
+            <Link href="/" className="flex items-center gap-3">
               <img src="/images/WhiskAwayPets_with_text_transparent.png" alt="WhiskAway Pets" className="h-10" />
-            </a>
+            </Link>
             <nav className="text-sm space-x-6">
               <a className="hover:text-orange-600 transition-colors" href="/intake">Get Started</a>
               <a className="hover:text-orange-600 transition-colors" href="/services">Services</a>

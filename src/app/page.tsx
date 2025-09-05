@@ -6,7 +6,7 @@ export default function Home() {
         <section className="space-y-8">
           <div className="space-y-6">
             <h1 className="text-5xl font-extrabold leading-tight text-neutral-900">
-              Your Pet's Journey Home 
+              Your Pet&apos;s Journey Home 
               <span className="text-orange-500"> Starts Here</span> 🐾
             </h1>
             <p className="text-xl text-neutral-700 leading-relaxed">
@@ -62,7 +62,7 @@ export default function Home() {
       {/* How It Works */}
       <section className="bg-white rounded-3xl p-12 shadow-sm">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">How Your Pet's Journey Works</h2>
+          <h2 className="text-3xl font-bold mb-4">How Your Pet&apos;s Journey Works</h2>
           <p className="text-neutral-600">Simple, stress-free, and surprisingly affordable</p>
         </div>
         
@@ -114,24 +114,24 @@ export default function Home() {
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           <div className="bg-white p-6 rounded-xl shadow-sm">
             <p className="text-neutral-700 italic mb-4">
-              "The International Pawsport saved our move! Everything was so clear 
-              and organized. Luna arrived in Germany without any issues!"
+              &ldquo;The International Pawsport saved our move! Everything was so clear 
+              and organized. Luna arrived in Germany without any issues!&rdquo;
             </p>
             <div className="font-semibold">- Sarah & Luna 🐕</div>
           </div>
           
           <div className="bg-white p-6 rounded-xl shadow-sm">
             <p className="text-neutral-700 italic mb-4">
-              "Moving with two cats seemed impossible until we found WhiskAway. 
-              The step-by-step guidance was perfect!"
+              &ldquo;Moving with two cats seemed impossible until we found WhiskAway. 
+              The step-by-step guidance was perfect!&rdquo;
             </p>
             <div className="font-semibold">- Mike & His Kitties 🐱🐱</div>
           </div>
           
           <div className="bg-white p-6 rounded-xl shadow-sm md:col-span-2 lg:col-span-1">
             <p className="text-neutral-700 italic mb-4">
-              "Military PCS with pets is stressful, but WhiskAway made it manageable. 
-              Highly recommend the concierge service!"
+              &ldquo;Military PCS with pets is stressful, but WhiskAway made it manageable. 
+              Highly recommend the concierge service!&rdquo;
             </p>
             <div className="font-semibold">- Jennifer & Max 🇺🇸</div>
           </div>
@@ -142,7 +142,7 @@ export default function Home() {
       <section className="text-center bg-orange-500 text-white rounded-3xl p-12">
         <h2 className="text-4xl font-bold mb-6">Ready to Bring Your Pet Home? 🏠</h2>
         <p className="text-xl mb-8 text-orange-100">
-          Join thousands of pet families who've made the move with confidence
+          Join thousands of pet families who&apos;ve made the move with confidence
         </p>
         <div className="flex gap-4 justify-center">
           <a href="/product/checklist" className="px-8 py-4 bg-white text-orange-500 rounded-xl hover:bg-orange-50 transition-colors font-semibold text-lg shadow-lg">

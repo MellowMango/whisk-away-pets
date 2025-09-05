@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function NotFound() {
   return (
     <div className="text-center space-y-8 py-16">
@@ -13,10 +15,10 @@ export default function NotFound() {
       <div className="bg-white rounded-xl border p-8 max-w-2xl mx-auto">
         <h3 className="text-xl font-bold mb-6">Where would you like to go?</h3>
         <div className="grid gap-4 md:grid-cols-2">
-          <a href="/" className="p-4 border rounded-lg hover:bg-neutral-50 text-left">
+          <Link href="/" className="p-4 border rounded-lg hover:bg-neutral-50 text-left">
             <div className="font-semibold mb-1">🏠 Home</div>
             <div className="text-sm text-neutral-600">Learn about our services</div>
-          </a>
+          </Link>
           
           <a href="/intake" className="p-4 border rounded-lg hover:bg-neutral-50 text-left">
             <div className="font-semibold mb-1">📋 Get Started</div>

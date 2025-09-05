@@ -4,7 +4,7 @@ export default function Services() {
       <section className="text-center space-y-6">
         <h1 className="text-4xl font-extrabold">Our Services</h1>
         <p className="text-xl text-neutral-700 max-w-3xl mx-auto">
-          Choose the level of support that's right for your pet's international relocation journey.
+          Choose the level of support that&apos;s right for your pet&apos;s international relocation journey.
         </p>
       </section>
 

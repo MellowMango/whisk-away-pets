@@ -23,7 +23,7 @@ type FormData = z.infer<typeof schema>;
 export default function IntakeForm() {
   const router = useRouter();
   const { register, handleSubmit, formState: { errors, isSubmitting } } = useForm<FormData>({
-    resolver: zodResolver(schema),
+    resolver: zodResolver(schema) as any,
   });
 
   const onSubmit = (data: FormData) => {

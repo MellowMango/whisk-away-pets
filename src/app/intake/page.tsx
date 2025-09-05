@@ -4,7 +4,7 @@ export default function IntakePage() {
   return (
     <div className="space-y-6">
       <div className="text-center space-y-2">
-        <h1 className="text-3xl font-bold">Plan Your Pet's Journey</h1>
+        <h1 className="text-3xl font-bold">Plan Your Pet&apos;s Journey</h1>
         <p className="text-lg text-neutral-700">
           Tell us about your pets and travel plans to get personalized guidance
         </p>

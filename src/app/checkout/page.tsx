@@ -1,10 +1,10 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { Suspense, useEffect, useMemo, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import CouponModal from "@/components/CouponModal";
 
-export default function CheckoutPage() {
+function CheckoutPageContent() {
   const params = useSearchParams();
   const router = useRouter();
   const tierParam = (params.get("tier") || "checklist").toLowerCase();
@@ -124,5 +124,13 @@ export default function CheckoutPage() {
         </p>
       </div>
     </div>
+  );
+}
+
+export default function CheckoutPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <CheckoutPageContent />
+    </Suspense>
   );
 }

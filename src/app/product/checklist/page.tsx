@@ -10,7 +10,7 @@ export default function ChecklistProduct() {
           />
         </div>
         <h1 className="text-4xl font-extrabold text-neutral-900">
-          Your Pet's <span className="text-orange-500">International Pawsport</span> 🐾
+          Your Pet&apos;s <span className="text-orange-500">International Pawsport</span> 🐾
         </h1>
         <p className="text-xl text-neutral-700 max-w-3xl mx-auto">
           Choose the perfect support level for moving your fur family member internationally. 
@@ -114,16 +114,16 @@ export default function ChecklistProduct() {
         <div className="grid gap-6 md:grid-cols-2">
           <div className="bg-neutral-50 p-6 rounded-lg">
             <p className="text-neutral-700 italic mb-3">
-              "The checklist was incredibly detailed and saved me weeks of research. 
-              Everything was exactly as described - no surprises!"
+              &ldquo;The checklist was incredibly detailed and saved me weeks of research. 
+              Everything was exactly as described - no surprises!&rdquo;
             </p>
             <p className="font-medium">- Sarah M., moved dog to Australia</p>
           </div>
           
           <div className="bg-neutral-50 p-6 rounded-lg">
             <p className="text-neutral-700 italic mb-3">
-              "Worth every penny. The timeline helped me stay organized and 
-              my cat's move went smoothly."
+              &ldquo;Worth every penny. The timeline helped me stay organized and 
+              my cat&apos;s move went smoothly.&rdquo;
             </p>
             <p className="font-medium">- James R., moved cat to Germany</p>
           </div>
@@ -133,7 +133,7 @@ export default function ChecklistProduct() {
       <section className="bg-blue-50 border border-blue-200 rounded-xl p-8 text-center">
         <h2 className="text-2xl font-bold mb-4">Questions About Which Option to Choose?</h2>
         <p className="text-neutral-700 mb-6">
-          Not sure which level of support is right for your pet's move? We're here to help you decide.
+          Not sure which level of support is right for your pet&apos;s move? We&apos;re here to help you decide.
         </p>
         <div className="flex gap-4 justify-center">
           <a href="/contact" className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700">
