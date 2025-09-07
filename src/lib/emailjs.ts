@@ -74,7 +74,7 @@ export const sendCustomerConfirmation = async (formData: IntakeFormData) => {
 export const sendOwnerNotification = async (formData: IntakeFormData) => {
   try {
     const templateParams = {
-      to_email: process.env.EMAILJS_OWNER_EMAIL || 'max@whiskaway.com',
+      to_email: process.env.EMAILJS_OWNER_EMAIL || 'whiskawaypets@gmail.com',
       customer_name: `${formData.firstName} ${formData.lastName}`,
       customer_email: formData.email,
       customer_phone: formData.phone,

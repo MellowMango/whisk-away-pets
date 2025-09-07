@@ -187,7 +187,7 @@ export default function Terms() {
             If you have any questions about these Terms & Conditions, please contact us:
           </p>
           <div className="mt-4 p-4 bg-neutral-50 rounded-lg">
-            <p><strong>Email:</strong> legal@whiskaway.com</p>
+            <p><strong>Email:</strong> whiskawaypets@gmail.com</p>
             <p><strong>Website:</strong> <a href="/contact" className="text-blue-600 hover:underline">Contact Form</a></p>
             <p><strong>Address:</strong> [Your Business Address]</p>
           </div>

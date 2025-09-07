@@ -145,7 +145,7 @@ export default function Privacy() {
             please contact us at:
           </p>
           <div className="mt-4 p-4 bg-neutral-50 rounded-lg">
-            <p><strong>Email:</strong> privacy@whiskaway.com</p>
+            <p><strong>Email:</strong> whiskawaypets@gmail.com</p>
             <p><strong>Address:</strong> [Your Business Address]</p>
           </div>
         </section>

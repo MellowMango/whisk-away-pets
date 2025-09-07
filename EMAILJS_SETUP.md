@@ -19,7 +19,7 @@ NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id_here
 NEXT_PUBLIC_EMAILJS_TEMPLATE_CUSTOMER=your_customer_template_id_here  
 NEXT_PUBLIC_EMAILJS_TEMPLATE_OWNER=your_owner_template_id_here
 NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key_here
-EMAILJS_OWNER_EMAIL=max@whiskaway.com
+EMAILJS_OWNER_EMAIL=whiskawaypets@gmail.com
 ```
 
 ## 3. Email Templates
@@ -78,7 +78,7 @@ EMAILJS_OWNER_EMAIL=max@whiskaway.com
     
     <div class="footer">
         <p>WhiskAway Pets - Making international pet moves stress-free<br>
-        Email: support@whiskawaypets.com | Website: whiskawaypets.com</p>
+        Email: whiskawaypets@gmail.com | Website: whiskawaypets.com</p>
     </div>
 </body>
 </html>

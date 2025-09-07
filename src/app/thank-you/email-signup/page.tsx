@@ -53,7 +53,7 @@ export default function EmailSignupThankYou() {
           </div>
           <div className="flex items-start gap-3">
             <span className="text-blue-600 mt-1">📬</span>
-            <span>Add pets@whiskaway.com to your address book for future emails</span>
+            <span>Add whiskawaypets@gmail.com to your address book for future emails</span>
           </div>
         </div>
       </section>
